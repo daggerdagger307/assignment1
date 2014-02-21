@@ -54,7 +54,6 @@ article {
 .billboard {
     overflow: hidden;
     background-image: url(/Users/brendan307/Desktop/GraphicDesign2/InteractionDesign1/github/assignment1/images/logotee.jpg);
-    background-color: black;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 25rem;
@@ -63,7 +62,6 @@ article {
 .clothing {
     overflow: hidden;
     background-image: url(/Users/brendan307/Desktop/GraphicDesign2/InteractionDesign1/github/assignment1/images/clothingpicture.jpg);
-    background-color: black;
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 40rem;
