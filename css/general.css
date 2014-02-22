@@ -65,7 +65,7 @@ article {
     background-image: url(../images/clothingpicture.jpg);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 30rem;
+    background-size: 100%;
 }
 
 .tabs {
