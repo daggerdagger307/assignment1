@@ -97,7 +97,7 @@ details {
     overflow: hidden;
     background-image: url(../images/shop.jpg);
     background-repeat: no-repeat;
-    background-position:center, center;
+    background-position: left, center;
     background-color: black;
     background-size: 30rem;
 }
