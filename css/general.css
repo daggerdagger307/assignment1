@@ -45,26 +45,27 @@ article {
 }
 
 .logo {
+    overflow: hidden;
     height: 3.5rem;
-    width: auto;
-    background-color: grey;
+    width: center;
+    background-color: dodgerblue;
     padding: .5rem 5%;
 }
 
 .billboard {
     overflow: hidden;
-    background-image: url(/Users/brendan307/Desktop/GraphicDesign2/InteractionDesign1/github/assignment1/images/logotee.jpg);
+    background-image: url(../images/logotee.jpg);
     background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 25rem;
+    background-position: left, center;
+    background-size: 100%;
 }
 
 .clothing {
     overflow: hidden;
-    background-image: url(/Users/brendan307/Desktop/GraphicDesign2/InteractionDesign1/github/assignment1/images/clothingpicture.jpg);
+    background-image: url(../images/clothingpicture.jpg);
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 40rem;
+    background-size: 100%;
 }
 
 .tabs {
@@ -95,8 +96,8 @@ h1 {
     font-size: 2rem;
     letter-spacing: -.1rem;
     text-transform: uppercase;
-    padding:.25rem 5%;
-    color: white;
+    padding: .25rem 5%;
+    color:dodgerblue;
 }
 
 h2 {
@@ -111,8 +112,8 @@ h3 {
     margin: 15rem 0 0;
     background-color: rgba( 171, 170, 167, .3);
     font-size: 2rem;
-    padding:.25rem 5%;
-    color: white;
+    padding:.55rem 5%;
+    color: dodgerblue;
     border-top: solid .1rem;
 }
 
