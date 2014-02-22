@@ -48,7 +48,7 @@ article {
     overflow: hidden;
     height: 3.5rem;
     width: center;
-    background-color: dodgerblue;
+    background-color: mediumturquoise;
     padding: .5rem 5%;
 }
 
@@ -66,6 +66,7 @@ article {
     background-image: url(../images/clothingpicture.jpg);
     background-repeat: no-repeat;
     background-position: left center;
+    background-color: black;
     background-size: 30rem;
 }
 
@@ -76,13 +77,20 @@ article {
     padding:.25rem 5%;
 
 }
-     
+ 
+details {
+    font-size: 1.25rem;
+    margin: 0 0 1.5rem;
+    line-height: 1.75rem;
+    color: white;
+}
+
 .dropcap:first-letter {
     font-size: 3rem;
     font-weight: bold;
     float: left;
     margin: -.5rem .2rem 0 0;
-    color: grey;
+    color: mediumturquoise;
 }
 
 header {
@@ -97,8 +105,8 @@ h1 {
     font-size: 2rem;
     letter-spacing: -.1rem;
     text-transform: uppercase;
-    padding: .25rem 3%;
-    color:dodgerblue;
+    padding: .25rem 3% ;
+    color:mediumturquoise;
 }
 
 h2 {
@@ -107,6 +115,7 @@ h2 {
     line-height: 1.75rem;
     border-top: solid .1rem;
     padding: .5rem 0 0;
+    color: mediumturquoise;
 }
 
 h3 {
@@ -114,7 +123,7 @@ h3 {
     background-color: rgba( 171, 170, 167, .3);
     font-size: 2rem;
     padding:.55rem 5%;
-    color: dodgerblue;
+    color: mediumturquoise;
     border-top: solid .1rem;
 }
 
@@ -124,12 +133,7 @@ h4 {
     line-height: 1.75rem;
     border-top: solid .1rem;
     padding: .5rem 0 0;
-}
-
-details {
-    font-size: 1.25rem;
-    margin: 0 0 1.5rem;
-    line-height: 1.75rem;
+    color: mediumturquoise;
 }
 
 blockquote {
@@ -152,7 +156,7 @@ blockquote span {
 blockquote p:before {
     content: "“";
     font-size: 4rem;
-    color: dodgerblue;
+    color: mediumturquoise;
     float: left;
     margin: 1rem 0 0 -2rem;
 }
@@ -161,7 +165,7 @@ blockquote p:after {
     content: "”";
     font-size: 2rem;
     position:absolute;
-    color: dodgerblue;
+    color: mediumturquoise;
     margin: .2rem 0 0;
 }
 
@@ -174,11 +178,11 @@ figcaption {
     color: white;
     font-size: .75rem;
     padding: .5rem 5%;
-    background-color: red;
+    background-color: mediumturquoise;
 }
 
 footer {
-    background-color: dodgerblue;
+    background-color: mediumturquoise;
     overflow: hidden;
     margin: 0;
     padding: 0 5%;
