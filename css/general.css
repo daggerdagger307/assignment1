@@ -67,6 +67,22 @@ article {
     background-size: 40rem;
 }
 
+.tabs {
+    margin: 0 0 0 0;
+    background-color: rgba( 171, 170, 167, .3);
+    font-size: 2rem;
+    padding:.25rem 5%;
+
+}
+     
+.dropcap:first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin: -.5rem .2rem 0 0;
+    color: grey;
+}
+
 header {
     overflow: hidden;
     background-color: black;
@@ -134,7 +150,7 @@ blockquote span {
 blockquote p:before {
     content: "“";
     font-size: 4rem;
-    color: red;
+    color: dodgerblue;
     float: left;
     margin: 1rem 0 0 -2rem;
 }
@@ -143,24 +159,8 @@ blockquote p:after {
     content: "”";
     font-size: 2rem;
     position:absolute;
-    color: red;
+    color: dodgerblue;
     margin: .2rem 0 0;
-}
-
-.tabs {
-    margin: 0 0 0 0;
-    background-color: rgba( 171, 170, 167, .3);
-    font-size: 2rem;
-    padding:.25rem 5%;
-
-}
-     
-.dropcap:first-letter {
-    font-size: 3rem;
-    font-weight: bold;
-    float: left;
-    margin: -.5rem .2rem 0 0;
-    color: grey;
 }
 
 figure {
@@ -176,7 +176,7 @@ figcaption {
 }
 
 footer {
-    background-color: brown;
+    background-color: dodgerblue;
     overflow: hidden;
     margin: 0;
     padding: 0 5%;
