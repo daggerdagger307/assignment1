@@ -40,7 +40,7 @@ p {
 
 article {
     margin: 0;
-    padding: 0 5%;
+    padding: 5%;
     overflow: hidden;
 }
 
@@ -82,7 +82,7 @@ details {
     font-size: 1.25rem;
     margin: 0 0 1.5rem;
     line-height: 1.75rem;
-    color: white;
+    color: mediumturquoise;
 }
 
 .dropcap:first-letter {
@@ -92,6 +92,16 @@ details {
     margin: -.5rem .2rem 0 0;
     color: mediumturquoise;
 }
+
+.process {
+    overflow: hidden;
+    background-image: url(../images/shop.jpg);
+    background-repeat: no-repeat;
+    background-position:center, center;
+    background-color: black;
+    background-size: 30rem;
+}
+
 
 header {
     overflow: hidden;
@@ -128,12 +138,12 @@ h3 {
 }
 
 h4 {
-    font-size: 1.25rem;
-    margin: 0 0 1.5rem;
-    line-height: 1.75rem;
-    border-top: solid .1rem;
-    padding: .5rem 0 0;
+    margin: 15rem 0 0;
+    background-color: rgba( 171, 170, 167, .3);
+    font-size: 2rem;
+    padding:.55rem 5%;
     color: mediumturquoise;
+    border-top: solid .1rem;
 }
 
 blockquote {
