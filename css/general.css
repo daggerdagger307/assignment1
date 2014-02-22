@@ -54,11 +54,11 @@ article {
 
 .billboard {
     overflow: hidden;
-    background-image: url(../images/logotee.jpg);
+    background-image: url(../images/hat.jpg);
     background-repeat: no-repeat;
     Background-color: black;
-    background-position: left, center;
-    background-size: 30rem;
+    background-position: center, center;
+    background-size: 45rem;
 }
 
 .clothing {
